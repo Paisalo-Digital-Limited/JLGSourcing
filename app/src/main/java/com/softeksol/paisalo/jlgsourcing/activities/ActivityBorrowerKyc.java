@@ -608,6 +608,8 @@ public class ActivityBorrowerKyc extends AppCompatActivity implements View.OnCli
         borrower.Loan_Reason = ((RangeCategory) acspLoanPurpose.getSelectedItem()).RangeCode;
         borrower.bank_ac_no = Utils.getNotNullText(tietBankAccount);
 
+
+
     }
 
     @Override
